@@ -14,6 +14,7 @@ namespace ElectronicColorCode.Controllers
         public readonly IOhmValueCalculator _ohmValueCalculator = null;
         public readonly OhmCalculator _ohmCalculator = null;
 
+
         /// <summary>
         /// OhmValueController constructor
         /// </summary>
