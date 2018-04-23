@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div class="col-md-12 bckColor">
+    <hr size="3" noshade="" width="75%">
+    <div class="col-md-12 text"><center>Resistor Color Code Calculator</center></div>
+    <img src="~/Images/ResistorLG.gif" class="center" />
+
+    <div id="ddContainer" class="row whiteBckColor"></div>
+    @*<div id="displayBtn" class="row col-md-12"></div>*@
+</div>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="~/Scripts/react/react.min.js"></script>
+<script src="@Url.Content("~/Scripts/jsx/Displaybtn.jsx")"></script>
+<script src="@Url.Content("~/Scripts/jsx/Dropdown.jsx")"></script>
+
+@*<style>
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+</style>*@
+
